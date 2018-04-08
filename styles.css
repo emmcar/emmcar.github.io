@@ -171,6 +171,8 @@ a {
   }
 
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    position: relative;
+    opacity: inherit;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,8 +342,10 @@ a {
   .imgbox4 {
     max-width: 100px;
   }
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
-    background-attachment: scroll;
-  }
 
+  }
+  @media only screen and (max-device-width: 1366px) {
+      .parallax {
+          background-attachment: scroll;
+      }
   }
