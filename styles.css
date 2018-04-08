@@ -344,7 +344,7 @@ a {
   }
 
   }
-  @media only screen and (max-device-width: 1366px) {
+  @media only screen and (max-device-width: 1066px) {
       .parallax {
           background-attachment: scroll;
       }
