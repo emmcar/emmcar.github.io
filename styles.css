@@ -171,9 +171,9 @@ a {
   }
 
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
-    position: relative;
+    /*position: relative;
     opacity: inherit;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@ a {
     background-image;
     background-color: #24D9D2;
   }
-/* ANIMATION start */
+/* A N I M A T I O N start */
 
   .bounceInLeft {
     animation-name: bounceInLeft;
@@ -295,7 +295,7 @@ a {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
   }
-/* ANIMATION slut */
+/* A N I M A T I ON slut */
 
 /*SKÄRMUPPLÖSNINGAR OSV*/
 
@@ -342,10 +342,14 @@ a {
   .imgbox4 {
     max-width: 100px;
   }
-
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+    position: relative;
+    opacity: inherit;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  @media only screen and (max-device-width: 1066px) {
-      .parallax {
-          background-attachment: scroll;
-      }
+  
+
   }
